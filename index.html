@@ -4,9 +4,223 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
   <title>HTML-CSS-Exam</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>  
-  
+<body>
+  <!-- HEADER -->
+  <header class="header container">
+    <div class="flexSpBt mx-auto">
+      <div class="logo">
+        <a href="#"><img src="/images/assets/logo.svg" alt="website logo"></a>
+      </div>
+      <div class="burgerIcon">
+        <i class="fa fa-bars burgerIcon" aria-hidden="true"></i>
+      </div>
+      <div class="dekstopMenu">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#launch">Launch</a>
+        <a href="#signUp">Sign Up</a>
+      </div>
+    </div>
+  </header>
+  <!-- /HEADER -->
+  <!-- HERO -->
+  <section id="about" class="hero">
+    <div class="hero-flex">
+      <div class="hero-description">
+        <!-- <div class="border-div"></div> -->
+        <h4 class="hero-pretitle">launching soon</h4>
+        <h1 class="hero-title">an <span>nft</span> like no other</h1>
+        <p class="hero-paragraph">Don't miss out on the release of our new NFT. Sign up below to receive updates when we go live.</p>
+        <button class="btn btn-gradient">sign up</button>
+      </div>  
+      <div class="hero-img-div">
+        <img class="hero-img"src="/images/assets/graphic.png" alt="graphic hero png"> 
+      </div> 
+    </div>
+  </section>
+  <!-- /HERO -->
+  <!-- BANNER -->
+  <section class="banner background-div">
+    <div class="container banner-div">
+      <h3 class="banner-title">free <span>nft</span> for early birds</h3>
+      <p class="banner-paragraph">Sign up today and you'll get a free NFT when we launch.</p>
+    </div>
+  </section>
+  <!-- /BANNER -->
+  <!-- MOREINFO -->
+  <section class="moreinfo container">
+    <div class="company-logos">
+      <img src="/images/assets/companies/1.svg" alt="Boom">
+      <img src="/images/assets/companies/2.svg" alt="Blimp">
+      <img src="/images/assets/companies/3.svg" alt="Qrco">
+      <img class="openDoorsimg" src="/images/assets/companies/4.svg" alt="Open Door">
+      <img src="/images/assets/companies/5.svg" alt="Droplet">
+    </div>
+    <div id="features" class="products-description">
+      <h3 class="product-title">LE Super Rare Auction</h3>
+      <p class="product-paragraph">We have released four limited edition NFTs early which can be bid on via <a href="#">OpenSea</a>.</p>
+    </div>
+  </section>
+  <!-- /MOREINFO -->
+  <!-- PRODUCT CARDS -->
+  <section class="product-cards">
+    <div class="products-flex">
+      <div class="product-card">
+        <img class="img-block" src="/images/assets/ntfs/ntf-1.svg" alt="Product1"></img>
+        <div class="card-info-div">
+          <div class="card-info-left">
+            <p class="card-info-div__pDescr">gloop series</p>
+            <p class="card-info-div__pTitle">purple man</p>
+            <p class="card-info-div__pNb">#12983</p>
+          </div>
+          <div class="card-info-right">
+            <p class="card-info-div__pDescr">Top bid</p>
+            <div class="card-info-div__pTitle card-info-div__pFlex"> 
+              <img src="/images/assets/eth.svg" alt="etc icon"> 
+              <p>2.99 ETH</p>
+            </div>
+            <p class="card-info-div__pNb">1 day left</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img class="img-block" src="/images/assets/ntfs/nft-2.svg" alt="Product2"></img>
+        <div class="card-info-div">
+          <div class="card-info-left">
+            <p class="card-info-div__pDescr">gloop series</p>
+            <p class="card-info-div__pTitle">beige</p>
+            <p class="card-info-div__pNb">#12983</p>
+          </div>
+          <div class="card-info-right">
+            <p class="card-info-div__pDescr">Top bid</p>
+            <div class="card-info-div__pTitle card-info-div__pFlex"> 
+              <img src="/images/assets/eth.svg" alt="etc icon"> 
+              <p>2.99 ETH</p>
+            </div>
+            <p class="card-info-div__pNb">1 day left</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img class="img-block" src="/images/assets/ntfs/ntf-3.svg" alt="Product2"></img>
+        <div class="card-info-div">
+          <div class="card-info-left">
+            <p class="card-info-div__pDescr">gloop series</p>
+            <p class="card-info-div__pTitle">beige</p>
+            <p class="card-info-div__pNb">#12983</p>
+          </div>
+          <div class="card-info-right">
+            <p class="card-info-div__pDescr">Top bid</p>
+            <div class="card-info-div__pTitle card-info-div__pFlex"> 
+              <img src="/images/assets/eth.svg" alt="etc icon"> 
+              <p>2.99 ETH</p>
+            </div>
+            <p class="card-info-div__pNb">1 day left</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img class="img-block" src="/images/assets/ntfs/ntf-4.svg" alt="Product2"></img>
+        <div class="card-info-div">
+          <div class="card-info-left">
+            <p class="card-info-div__pDescr">gloop series</p>
+            <p class="card-info-div__pTitle">beige</p>
+            <p class="card-info-div__pNb">#12983</p>
+          </div>
+          <div class="card-info-right">
+            <p class="card-info-div__pDescr">Top bid</p>
+            <div class="card-info-div__pTitle card-info-div__pFlex"> 
+              <img src="/images/assets/eth.svg" alt="etc icon"> 
+              <p>2.99 ETH</p>
+            </div>
+            <p class="card-info-div__pNb">1 day left</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- /PRODUCT CARDS -->
+  <!-- UPSELL -->
+  <section id="launch" class="upsell">
+    <div class="hr"></div>
+    <div class="hr2"></div>
+    <div id="signUp" class="upsell-bgFlex">
+      <div class="upsell-text-flex">
+        <div class="upsell-title-box">
+          <h4 class="upsell-pretitle">launching</h4>
+          <h3 class="upsell-title">an <span>nft</span> like no other</h3>
+        </div>
+        <div class="upsell-fup-box">
+          <p class="upsell-paragraph">Don't miss out on the release of our new NFT. Sign up below to receive updates.</p>
+          <button class="btn btn-gradient">sign up</button>
+        </div>
+      </div>
+      <div class="upsell-img-flex">
+        <img class="upsell-img" src="/images/assets/upsell-footer-image.svg" alt="upsell image">
+      </div>
+    </div>
+    <div class="hr3"></div>
+  </section>
+  <!-- /UPSELL -->
+  <!-- FOOTER -->
+  <section class="footer">
+    <div class="footer-logos">
+      <a href="#"><img class="footerLogo" src="/images/assets/logo.svg" alt="company logo"></a>
+      <h4 class="footer-title">Exclusive NFT Collection</h4>
+      <div class="socialIcons">
+        <div class="fb-div">
+          <i class="fa fa-facebook-square fbIcon" aria-hidden="true"></i>
+          <a href="#"><div class="fbcircle"></div></a>
+        </div>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="bi bi-tiktok tiktokIcon"></i></a>
+      </div>
+    </div>
+    <div class="footer-bgGrid">
+      <div class="footer-cards">
+        <div class="footer-card-flex">
+          <a class="footer-card-flex__title" href="#">About</a>
+            <a href="#">About</a>
+            <a href="#">Term</a>
+            <a href="#">Legal</a>
+        </div>
+      </div>
+      <div class="footer-cards">
+        <div class="footer-card-flex">
+          <a class="footer-card-flex__title" href="#">NFT</a>
+          <a href="#">OpenSea</a>
+          <a href="#">Maker</a>
+          <a href="#">Learn</a>
+        </div>
+      </div>
+      <div class="footer-cards">
+        <div class="footer-card-flex">
+          <a class="footer-card-flex__title" href="#">Contact</a>
+          <a href="#">Press</a>
+          <a href="#">Support</a>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div class="footer-cards">
+        <div class="footer-card-flex">
+          <a class="footer-card-flex__title" href="#">Social</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#"></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyrightsFLex">
+      <div class="footer-card__flex"><p class="footer-end">© Copyright 2022 NFTlanding</p></div>
+      <div><p class="footer-end-dkstp">Launching August 2022</p></div>
+    </div>
+  </section>
+  <!-- /FOOTER -->
 </body>
 </html>

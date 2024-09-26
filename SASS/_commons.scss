@@ -1,0 +1,49 @@
+@use 'vars' as v;
+
+
+// CONTAINERS 
+.container {
+  max-width: 1280px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.flexSpBt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+
+// BUTTONS
+.btn {
+  font-family: 'Inter', sans-serif;
+  border-radius: 49.46px;
+  border: 4px solid black;
+  background-color: #fff;
+  padding:22px 52px 23px 52px;
+  color: v.$black-color;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.btn-gradient{
+  background: linear-gradient(to bottom right, #fff, #fff) padding-box, linear-gradient(to bottom right, #FF3998, #FF8139, #39FFA0, #FF3939) border-box;
+  border-radius: 49.46px;
+  border: 4px solid transparent;
+}
+
